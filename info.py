@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'UHDTamilBot')
 API_ID = int(environ.get('API_ID', '29610881'))
 API_HASH = environ.get('API_HASH', '81d92754c9e7e7be225bf656e04e6f45')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7071481742:AAGdDcMoDrX12DyZUpF6Ts1aMi5XVD1z9XU")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6871508979:AAE5wG0qnFJyIHC3ej6b6bWJDfq1Q_M1bi0")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -30,7 +30,7 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/e09d0ab712056960d
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/df85b2b9b5666d04d9b43.jpg")
 
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001906074061'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002168059715'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1291610043').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001921446982').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '1291610043').split()]
@@ -51,7 +51,7 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mrprince24gopriya:Cluster143@cluster143.c5rrzgj.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://gopinath2483:UHD2024@cluster143new.a3f8e.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "UHDTamilbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'UHDcollection')
 
