@@ -30,7 +30,7 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/e09d0ab712056960d
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/df85b2b9b5666d04d9b43.jpg")
 
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001706458871'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001906074061'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1291610043').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001921446982').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '1291610043').split()]
